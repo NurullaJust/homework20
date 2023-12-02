@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script src="script.js"></script>
+    <label for="salary">Aylıq Maaş</label>
+    <br />
+    <input type="text" name="salary" id="salary" />
+    <br />
+    <label for="tax">Faiz Derecesi</label>
+    <br />
+    <input type="text" name="percent" id="tax" />
+    <br />
+    <button type="button" class="third" onclick="calcSalary()">
+      Maaş Hesapla
+    </button>
+    <p class="end">Vergiden Sonraki Maaş: <span id="result"></span></p>
+  </body>
+</html>
